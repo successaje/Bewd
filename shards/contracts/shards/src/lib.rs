@@ -2,6 +2,7 @@
 
 mod admin;
 mod allowance;
+mod approval;
 mod balance;
 mod contract;
 mod metadata;

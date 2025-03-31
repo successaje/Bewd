@@ -1,5 +1,5 @@
 [package]
-name = "bewd-token"
+name = "shards"
 version = "0.0.0"
 edition = "2021"
 publish = false
@@ -10,7 +10,8 @@ doctest = false
 
 [dependencies]
 soroban-sdk = { workspace = true }
-soroban-token-sdk = { version = "22.0.1" }
+soroban-token-sdk = "22.0.1"
+
 
 [dev-dependencies]
 soroban-sdk = { workspace = true, features = ["testutils"] }
